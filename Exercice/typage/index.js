@@ -1,12 +1,14 @@
 "use strict";
 // 1er point
-let userName;
+let userName = "Paul";
 // 2eme point
-let userAge;
+let userAge = 12;
 // 3eme point
 let isLogin = false;
 // 4eme point
 let userNames = [];
+userNames.push(userName);
+console.log(userNames);
 // 5eme point
 let person = {
     firstName: "Dupont",
@@ -15,7 +17,7 @@ let person = {
 };
 // Est-il possible d'afficher la valeur age via console.log :
 // Reponse : oui
-console.log(person.age);
+// console.log(person.age)
 // 6eme point
 let person1 = {
     firstName: "Dupont",
