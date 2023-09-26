@@ -1,4 +1,5 @@
 "use strict";
+//1er point
 let person1 = {
     nom: "Toto Dupont",
     age: 35,
@@ -20,6 +21,7 @@ let person4 = {
     role: "Gérant",
 };
 let tableau = [person1, person2, person3, person4];
+//4eme point
 for (let i = 0; i < tableau.length; i++) {
     console.log(tableau[i].nom + " " + tableau[i].age);
 }

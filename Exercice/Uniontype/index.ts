@@ -1,15 +1,18 @@
+
+//1er point
+
 interface User  {
     nom: string | number
     age: number
     occupation : string
 }
-
+//2eme point
 interface Admin {
     nom: string
     age: number
     role : string
 }
-
+//3eme point
 type Personne = {
     nom: string,
     age: number,
@@ -43,6 +46,7 @@ let person4: Personne = {
 
 let tableau = [person1, person2, person3, person4]
 
+//4eme point
 for(let i=0; i<tableau.length;i++){
     console.log(tableau[i].nom + " " + tableau[i].age)
 }
